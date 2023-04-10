@@ -1,9 +1,3 @@
-<h1 align="center"> Chat </h1>
-
-<p align="center">
-#boraCodar são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-</p>
-
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img src=".github/preview.jpg" width="100%">
+  <img src="https://user-images.githubusercontent.com/108701750/230997684-b734a839-6b45-45f7-840b-bc6057bf2eec.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -26,16 +20,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - Git e Github
-- Figma
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1200070743637495660). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://chatboot.netlify.app/).
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
 
 ---
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
