@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://img.icons8.com/color/256/speech-bubble.png" type="image/x-icon">
+    <title>Chat</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="top">
+        <div id="user-info">
+          <img
+            src="https://play-lh.googleusercontent.com/2QXCv40cUDNEeZqviEJGdITx6tVEYScVi4tFWaJY4ckLei2ggsIxVZPLqAj1IITIlZh9"
+            alt="logo do chatGPT"
+          />
+
+          <div id="user-status">
+            <strong>ChatGPT</strong>
+            <div class="status">Disponível</div>
+          </div>
+        </div>
+        <div id="close-chat">
+          <i class="ph-x-fill"></i>
+        </div>
+      </div>
+      <div id="messages">
+        <div id="last-seen">Hoje 17:37</div>
+
+        <div class="messages">
+          <div class="message">
+            <div class="top">ChatGPT - 17:38</div>
+            <div class="body">Olá! Como posso ajudá-lo(a) hoje? </div>
+          </div>
+          <div class="message you">
+            <div class="top">você - 17:39</div>
+            <div class="body">Pode me ajudar com im problema?</div>
+          </div>
+          <div class="message">
+            <div class="top">Cecilia - 17:41</div>
+            <div class="body">
+              Claro, estou aqui para ajudar. Por favor, me conte qual é o seu problema.
+            </div>
+          </div>
+          <div class="message you">
+            <div class="top">Você - 11:36</div>
+            <div class="body"><strong>#boraCodar! 🚀</strong></div>
+          </div>
+        </div>
+      </div>
+      <form id="bottom">
+        <input type="text" placeholder="Digite sua mensagem" />
+        <button>
+          <i class="ph-paper-plane-right-fill"></i>
+        </button>
+      </form>
+    </div>
+
+    <script>
+      const messages = document.querySelector(".messages")
+      messages.lastElementChild.scrollIntoView()
+    </script>
+  </body>
+</html>
