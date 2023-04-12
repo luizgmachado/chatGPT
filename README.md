@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img src="!https://user-images.githubusercontent.com/108701750/231604503-ca7ee716-29eb-4269-8f32-0bf9dcdd8ba2.png"width="100%">
+  <img src="https://user-images.githubusercontent.com/108701750/231604503-ca7ee716-29eb-4269-8f32-0bf9dcdd8ba2.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
